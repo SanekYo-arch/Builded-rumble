@@ -40,7 +40,7 @@ jobs:
       - name: Install ldid
         run: brew install ldid
 
-      # ── 5. Build with Theos ──────────────────────────────────────────────────
+      # ── 5. Build for with Theos ──────────────────────────────────────────────────
       - name: Build package
         run: |
           make package \
